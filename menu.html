@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+  <title>menu</title>
+
+
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="menu.js"></script>
+
+   <script 
+   src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+   </script>
+  
+    </head>
+
+    <body style="background-color: rgb(31, 30, 30)">
+        
+
+        <header>
+            <div>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+                
+                
+
+                      <ul class="icon">
+                       <li class="desktop"><a href="index.html">Home</a></li>
+                       <li class="desktop"><a href="#">Menu</li>
+                       <li class="desktop"><a href="contact.html">Contact</li>
+                       <li class="desktop"><a href="location.html">Location</li>
+                      </ul>
+                      <ul>
+                        <li class="mobile"><a href="#">Home</a></li>
+                        <li class="mobile"><a href="#">Menu</li>
+                        <li class="mobile"><a href="#">Contact</li>
+                        <li class="mobile"><a href="#">Location</li>
+                       </ul>
+
+                <li class="signup-btn"><a href="signup.html">signup</a></li>
+                <li class="login-btn">Login</li>
+            </div>
+        </header>
+
+        <div>
+            <img src="images/background3.jpeg" alt="background" id="header_background" id="img">
+       
+        </div>
+
+        <section class="features" style="background-color: rgb(58, 58, 58);">
+            <figure>
+                <img src="images/americano.jpeg" alt="black" width="340" height="200">
+                <figcaption>Black Coffee</figcaption>
+            </figure>
+            <figure>
+                <img src="images/espresso2.jpeg" alt="cream" width="350" height="200">
+                <figcaption>Cream Coffee</figcaption>
+            </figure>
+            <figure>
+                <img src="images/latte.jpeg" alt="Special" width="360" height="200">
+                <figcaption>Special Coffee</figcaption>
+            </figure>
+
+            
+        </section>
+
+
+        <div>
+            <img src="images/background4.jpeg" alt="background" id="header_background">
+       
+        </div>
+
+
+        <section class="features" style="background-color: rgb(58, 58, 58);">
+            <figure>
+                <img src="images/matcha.jpeg" alt="black" width="340" height="200">
+                <figcaption>Matcha Latte</figcaption>
+            </figure>
+            <figure>
+                <img src="images/golden.jpeg" alt="cream" width="350" height="200">
+                <figcaption>Golden Milk Latte</figcaption>
+            </figure>
+            <figure>
+                <img src="images/lemondae.jpeg" alt="Special" width="360" height="200">
+                <figcaption>Lemonade</figcaption>
+            </figure>
+
+            
+        </section>
+
+       <footer>
+           <u style="font-size:20px"><b>Kira's Delious Coffee</b></u>
+           <div>Cavite |Dasmarinas | San Jose</div>
+           <hr>
+           <LI class="dev a" style="font: size 15px;"><b>Hours</b></LI>
+           <LI class="dev b" style="font-size:15px"><b>Telephone</b></LI>
+           <LI class="dev c" style="font-size:15px"><b>Email</b></LI>
+           <br>
+           <p>*Open Everyday*</p>
+           <p>0921-4303-978</p>
+           <p>IvanRivera@gmail.com</p>
+           </br>
+           
+       </footer>
+       <script>
+           $(document).ready(function(){
+    $("#check").click(function(){
+      $(".mobile").fadeToggle();
+    });
+});
+       </script>
+
+    
+    </body>
+</html>
